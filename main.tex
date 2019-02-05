@@ -1,0 +1,34 @@
+\documentclass[twoside, openright]{RequiredFiles/NorthumbriaPhdThesis}
+
+%%%
+% Meta Data (Used on Title Pages)
+%%%
+\title{Northumbria University \LaTeX~Thesis Template}
+\author{Full Name}
+\faculty{Faculty Name}
+\wordcount{83,564}
+\degreetype{Doctor of Philosophy}
+\degreetitle{PhD}
+
+\begin{document}
+
+%%%
+% Begin Front Matter
+%%%
+\frontmatter
+\maketitle
+\input{FrontMatter/FrontMatter.tex}
+
+%%%
+% Begin Main Matter
+%%%
+\mainmatter
+\pagestyle{fancy}
+\input{MainMatter/Chapters.tex}
+
+%%%
+% Begin Back Matter
+%%%
+\input{BackMatter/BackMatter.tex}
+
+\end{document}
