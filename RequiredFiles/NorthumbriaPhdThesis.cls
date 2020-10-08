@@ -228,8 +228,11 @@
 \fi
 \renewcommand\bibname{References}
 \renewcommand{\today}{\the\day~\monthname~\the\year}
-\counterwithout{figure}{chapter}
-\counterwithout{table}{chapter}
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter}
+\renewcommand{\figurename}{Fig.}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
 \graphicspath{ {Images/} } %%% This folder must exist
 
 \endinput
