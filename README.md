@@ -1,6 +1,6 @@
 # What is this File
 
-This project was created to make it easier to start creating a Thesis for Northumbria University. The university has verbose guidelines on how a PhD document should be setup. This project was created so that you can quickly and easily start a Thesis in LaTeX.
+This project is to make it easier to start creating a Ph.D. thesis for Northumbria University. The university has verbose guidelines on how a Ph.D. document should be setup. This project is created so that you can quickly and easily start a thesis in LaTeX.
 
 The Northumbria guidelines for PhD Thesis creation are located [here]("https://northumbria-cdn.azureedge.net/-/media/corporate-website/new-sitecore-gallery/services/academic-registry/documents/academic-support/submission-guidance-for-students-and-supervisors.pdf?modified=20181220112907&la=en&hash=8AB2B5471E72E1D719AF0933F0B8C4BCAD552FA9")
 
@@ -29,12 +29,10 @@ This makes organisation of sections and chapters smoother. The main.tex file wil
 For complicated chapters (mutliple sub sections), use the directory structure above (or one you feel more comfortable with). For simple chapters (one or two sections) it may be worth just creating a single .tex file.
 
 
-
 ## Required Files
 
 This project uses the following required files:
 
-- Glossaries (Use this file to define acronyms and glossary items)
 - Harvard.bst (This is the bibliography style file same as AGSM, but formats URLS correctly and supresses URLs on all but Misc (webpages) items.)
 - Library.bib (This is bib file used to generate bibliography)
 - NorthumbriaPhDThesis.cls (This file provides all the overrides to the Book.cls file that makes the project comply with Northumbria's style guide)
@@ -53,7 +51,6 @@ The Images Directory is defined inside of the document class file so it's name c
 ```
 
 
-
 ## Arguments
 
 ### Double Sided Printing
@@ -69,8 +66,6 @@ To create a one sided print create the class declaration without any declaration
 ```latex
 \documentclass{RequiredFiles/NorthumbriaPhdThesis}
 ```
-
-
 
 ### Uncited Bibliography
 
@@ -89,6 +84,7 @@ Then at the end of your document (before the index is printed) add the following
 ```
 
 This uses the multibib package which is required and defined in NorthumbriaPhdThesis.cls to make this work it creates a second bibliography flag class {other} and includes the line `\nociteother{*}` to reference all bib items in the 'other' bibliography.
+
 
 ### Font12
 
