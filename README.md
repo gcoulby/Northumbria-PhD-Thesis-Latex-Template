@@ -2,7 +2,7 @@
 
 This project is to make it easier to start creating a Ph.D. thesis for Northumbria University. The university has verbose guidelines on how a Ph.D. document should be setup. This project is created so that you can quickly and easily start a thesis in LaTeX.
 
-The Northumbria guidelines for PhD Thesis creation are located [here]("https://northumbria-cdn.azureedge.net/-/media/corporate-website/new-sitecore-gallery/services/academic-registry/documents/academic-support/submission-guidance-for-students-and-supervisors.pdf?modified=20181220112907&la=en&hash=8AB2B5471E72E1D719AF0933F0B8C4BCAD552FA9")
+The Northumbria guidelines for Ph.D. thesis creation are located [here](https://northumbria-cdn.azureedge.net/-/media/corporate-website/new-sitecore-gallery/services/academic-registry/documents/academic-support/submission-guidance-for-students-and-supervisors.pdf?modified=20181220112907&la=en&hash=8AB2B5471E72E1D719AF0933F0B8C4BCAD552FA9)
 
 # Instructions
 
