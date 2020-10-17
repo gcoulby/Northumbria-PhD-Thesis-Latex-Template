@@ -61,10 +61,14 @@
 \RequirePackage[hidelinks,breaklinks]{hyperref}
 \RequirePackage[acronym]{glossaries-extra}
 
-% modifing the font family
+% modified the font family
 \RequirePackage{fontspec} 
 \setmainfont[BoldFont={Arial Bold}, ItalicFont={Arial Italic}]{Arial}
 \renewcommand{\chaptermark}[1]{\markright{\chaptername\ \thechapter. #1}}
+
+% modifed the header
+\fancyhead[EL,RO]{\rightmark}
+\fancyhead[ER,OL]{}
 
 %%
 % META DATA
