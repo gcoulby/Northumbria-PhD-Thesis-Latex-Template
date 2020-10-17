@@ -45,7 +45,6 @@
 
 \RequirePackage[left=4cm, right=2cm, top=3cm, bottom=3cm]{geometry}
 \RequirePackage{fancyhdr}
-\RequirePackage{times}
 \RequirePackage{atbegshi}
 \RequirePackage{graphicx}
 \RequirePackage{natbib}
@@ -62,6 +61,10 @@
 \RequirePackage[hidelinks,breaklinks]{hyperref}
 \RequirePackage[acronym]{glossaries-extra}
 
+% modifing the font family
+\RequirePackage{fontspec} 
+\setmainfont[BoldFont={Arial Bold}, ItalicFont={Arial Italic}]{Arial}
+\renewcommand{\chaptermark}[1]{\markright{\chaptername\ \thechapter. #1}}
 
 %%
 % META DATA
