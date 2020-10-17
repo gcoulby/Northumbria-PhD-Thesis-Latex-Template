@@ -70,6 +70,11 @@
 \fancyhead[EL,RO]{\rightmark}
 \fancyhead[ER,OL]{}
 
+% modifed the title style
+\RequirePackage{titlesec}
+\titleformat{\chapter}[display]{\normalfont\Huge\bfseries}{\chaptertitlename\ \thechapter}{10pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+
 %%
 % META DATA
 %%
