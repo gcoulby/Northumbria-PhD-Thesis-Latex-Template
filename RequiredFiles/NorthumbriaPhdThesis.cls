@@ -216,7 +216,6 @@
 \setlength\LTleft{0pt}
 \setlength\LTright{0pt}
 \setlength\glsdescwidth{1.6\hsize}
-\input{RequiredFiles/Glossaries.tex} %%% This file MUST exist
 
 %%
 % Multi Bib support
