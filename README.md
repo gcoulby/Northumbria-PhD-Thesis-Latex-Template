@@ -1,3 +1,9 @@
+#NOTE:
+The purpose of this template is to act as a starting point for Northumbria Students to produce a Thesis in Latex. For further customisations and additional options please also check Zongyan's fork:
+
+https://github.com/zongyan/nu_thesis_template
+
+
 # What is this File
 
 This project was created to make it easier to start creating a Thesis for Northumbria University. The university has verbose guidelines on how a PhD document should be setup. This project was created so that you can quickly and easily start a Thesis in LaTeX.
